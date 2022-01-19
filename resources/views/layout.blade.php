@@ -45,6 +45,6 @@
         @yield('content')
     </div>
 
-    <footer>Copy Rights By Resturant</footer>
+    {{-- <footer>Copy Rights By Resturant</footer> --}}
 </body>
 </html>
