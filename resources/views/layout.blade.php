@@ -25,7 +25,7 @@
                 <a class="nav-link" href="/list">List</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Search</a>
+                <a class="nav-link" href="/add">Add</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Login</a>
@@ -34,7 +34,7 @@
                 <a class="nav-link" href="#">Register</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Add</a>
+                <a class="nav-link" href="#">Search</a>
               </li>
             </ul>
           </div>

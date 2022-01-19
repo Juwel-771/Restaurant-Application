@@ -20,3 +20,5 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/',[RestoController::class,'index']);
 Route::get('/list',[RestoController::class,'list']);
+Route::post('/add',[RestoController::class,'add']);
+Route::view('/add','add');
