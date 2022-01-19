@@ -16,6 +16,7 @@
                     <th scope="col">Restaourant Name</th>
                     <th scope="col">E-mail</th>
                     <th scope="col">Address</th>
+                    <th scope="col">Operation</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -25,6 +26,10 @@
                     <td>{{$item->name}}</td>
                     <td>{{$item->email}}</td>
                     <td>{{$item->address}}</td>
+                    <td>
+                      <a href="/edit/{{$item->id}}" class="btn btn-warning btn-sm">Edit</a>
+                      <a href="/delete/{{$item->id}}" class="btn btn-danger btn-sm">Delete</a>
+                    </td>
                   </tr>
                   @endforeach
                 </tbody>
