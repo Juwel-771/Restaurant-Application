@@ -19,3 +19,4 @@ use Illuminate\Support\Facades\Route;
 // });
 
 Route::get('/',[RestoController::class,'index']);
+Route::get('/list',[RestoController::class,'list']);

@@ -10,4 +10,9 @@ class RestoController extends Controller
     {
         return view('home');
     }
+
+    public function list()
+    {
+        return view('list');
+    }
 }
