@@ -26,7 +26,8 @@ class RestoController extends Controller
         $add->email = $request->email;
         $add->address = $request->address;
         $add->save();
+        // $add->session()->flash('message','Restaurant Added');
 
-        return view('add');
+        return redirect('list')->with('message','Restaurant Added'); 
     }
 }

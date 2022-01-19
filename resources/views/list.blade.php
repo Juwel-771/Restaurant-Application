@@ -1,6 +1,11 @@
 @extends('layout')
 @section('content')
-    <h2>List Page</h2>
+    <h2>Restaurant Page</h2>
+    @if (session()->has('message'))
+        <div class="alert alert-success">
+          {{session('message')}}
+        </div>
+    @endif
 <div class="container">
     <div class="row">
         <div class="col-md-10">
